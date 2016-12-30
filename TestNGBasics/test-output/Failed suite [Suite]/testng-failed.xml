@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <parameter name="browser" value="Opera"/>
+  <test name="Opera Test(failed)(failed)">
+    <parameter name="browser" value="Opera"/>
+    <classes>
+      <class name="crossBrowserTesting.CBT">
+        <methods>
+          <include name="verifyText"/>
+          <include name="verifyTitle"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- crossBrowserTesting.CBT -->
+    </classes>
+  </test> <!-- Opera Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
